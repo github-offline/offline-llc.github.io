@@ -1,0 +1,72 @@
+# Block ALL bots from ALL paths except root
+User-agent: *
+Allow: /$
+Disallow: /
+
+# Explicitly block common ad/marketing bots from everything except root
+User-agent: AdsBot-Google
+Allow: /$
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /$
+Disallow: /
+
+User-agent: Googlebot-Image
+Allow: /$
+Disallow: /
+
+User-agent: Googlebot-Video
+Allow: /$
+Disallow: /
+
+User-agent: facebookexternalhit
+Allow: /$
+Disallow: /
+
+User-agent: Twitterbot
+Allow: /$
+Disallow: /
+
+User-agent: LinkedInBot
+Allow: /$
+Disallow: /
+
+User-agent: WhatsApp
+Allow: /$
+Disallow: /
+
+User-agent: Slackbot
+Allow: /$
+Disallow: /
+
+User-agent: bingbot
+Allow: /$
+Disallow: /
+
+User-agent: msnbot
+Allow: /$
+Disallow: /
+
+User-agent: Slurp
+Allow: /$
+Disallow: /
+
+User-agent: DuckDuckBot
+Allow: /$
+Disallow: /
+
+User-agent: Baiduspider
+Allow: /$
+Disallow: /
+
+User-agent: YandexBot
+Allow: /$
+Disallow: /
+
+# Set crawl delay for all bots (in seconds)
+Crawl-delay: 86400
+
+# Optional: Add sitemap if you have one
+# Sitemap: https://offline.llc/sitemap.xml
+
